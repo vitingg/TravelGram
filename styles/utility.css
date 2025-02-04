@@ -63,7 +63,7 @@
   height: 20.5rem;
 }
 
-@media (max-width: 80em) {
+@media (max-width: 79.99em) {
 
   .profile-header {
     width: 2rem;

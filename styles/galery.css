@@ -1,14 +1,15 @@
 .photo {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  justify-items: space-between;
+  grid-template-rows: 1fr auto;
   
   gap: 10px; 
 }
 
 .photo img {
-  width: 28rem;
+  width: 25rem;
   height: auto;
+  padding-bottom: 1.5rem;
 }
 
 @media (max-width: 79.99em) {
@@ -19,4 +20,10 @@
     grid-template-columns: 1fr;
     place-items: center;
   }
+
+  .photo img {
+    width: 28rem;
+    height: auto;
+  }
+
 }

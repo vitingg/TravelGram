@@ -39,7 +39,7 @@ li {
 }
 
 @media (max-width: 79.99em) {
-
+  
   .align-item ul {
     margin-left: -15px;
   }
@@ -53,7 +53,7 @@ li {
     height: 12rem;
     margin-left: -10rem;
   }
-  
+
   .br-desktop {
     display: none;
   }
@@ -62,7 +62,7 @@ li {
     display: inline;
   }
 
-  main {
+  .space {
     display: flex;
     flex-direction: column;
   }

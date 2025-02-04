@@ -1,0 +1,41 @@
+.footer-desktop {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer-mobile {
+  display: none;
+}
+
+@media (max-width: 79.99em) {
+
+  .footer-desktop{
+    display: none;
+  }
+
+  .footer-mobile {
+    display: block;
+    position: relative;
+    margin-top: 342rem; 
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .75rem;
+  }
+
+  .bet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 4rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
