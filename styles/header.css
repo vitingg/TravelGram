@@ -1,0 +1,46 @@
+#\1rem {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text1);
+}
+
+.p-rem {
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+header {
+  padding-top: 1.5rem;
+  background-color: var(--surface-color);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 79.99em) {
+
+  
+
+  h1 {
+    font-size: var(--fs-phone-lg);
+  }
+
+  header {
+    padding-top: 1rem;
+    background-color: var(--surface-color);
+    padding-left: 1rem;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  a {
+    display: none;
+  }
+  
+}

@@ -1,0 +1,22 @@
+.photo {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: space-between;
+  
+  gap: 10px; 
+}
+
+.photo img {
+  width: 28rem;
+  height: auto;
+}
+
+@media (max-width: 79.99em) {
+  .photo {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+  }
+}
